@@ -1,9 +1,8 @@
-"use strict";
 (function () {
     function saludar(nombre) {
         console.table('Hola, ' + nombre); // Hola Logan
     }
-    const wolverine = {
+    var wolverine = {
         nombre: 'Logan'
     };
     saludar(wolverine.nombre);
